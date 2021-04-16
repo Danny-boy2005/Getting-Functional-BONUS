@@ -14,11 +14,18 @@ in the object.
 
 */
 
-function averageBalance(array){
+function averageBalance(array, averageEnter){
   //CODE BELOW HERE
+var count = 0;
 
 
+for(var i = 0; i <= array.length - 1; i++) 
+  if(array[i].average === averageEnter) {
+
+    count++;
+  }
 
 
   //CODE ABOVE HERE
 }
+console.log(averageBalance)
